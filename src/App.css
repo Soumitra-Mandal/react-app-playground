@@ -1,7 +1,16 @@
 h1 {
     text-align: center;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    margin:0;
 }
 
+.App{
+    height: 100vh;
+    background-color: black;
+}
 #time {
     position: absolute;
     left: 42%;
@@ -13,4 +22,26 @@ h1 {
     text-align: center;
     padding-top: 20px;
     border-radius: 6px;
+}
+
+#off{
+    height: 25px;
+    width: 50px;
+    margin:30px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    user-select: none;
+}
+
+#on{
+    height: 25px;
+    width: 50px;
+    margin:30px;
+    color: white;
+    text-align: center;
+    background-color: #1cbf04;
+    cursor: pointer;
+    user-select: none;
 }
